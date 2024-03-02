@@ -1,0 +1,27 @@
+.photoCard {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 292px;
+    height: 395px;
+    background-color: #ddddddaf;
+    box-shadow: 0 0 10px 5px #dddddd;
+    border: 2px solid #dddddd;
+    opacity: 0.9;
+}
+
+.photoPlace {
+    height: 198px;
+    width: 198px;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+}
+
+.photo {
+    margin-left: 21px;
+    width: 80%;
+}
