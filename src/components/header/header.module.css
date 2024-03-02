@@ -1,21 +1,30 @@
 .header {
     display: flex;
     justify-content: end;
-    max-width: 1280px;
+    max-width: 1138px;
     box-sizing: border-box;
     padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 254px;
 }
 
 .wrapper {    
-    /* width: 100%; */
+    width: 100%;
+    max-width: 808px;
 }
 
 .logo {
-    width: 30px;
-    height: 35px;
+    width: 40px;
+    height: 46px;
 }
 
 .logoContainer {
     display: flex;
     gap: 10px;
+}
+
+.title {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 26px;
+    margin: 0;
 }
