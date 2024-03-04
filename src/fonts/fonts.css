@@ -5,3 +5,21 @@
     src: url('./pacifico/Pacifico-Regular.woff') format('woff'),
         url('./pacifico/Pacifico-Regular.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./comfortaa/Comfortaa-Bold.woff') format('woff'),
+        url('./comfortaa/Comfortaa-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./comfortaa/Comfortaa-Light.woff') format('woff'),
+        url('./comfortaa/Comfortaa-Light.woff2') format('woff2');
+}
+
+

@@ -1,6 +1,7 @@
 .photoCard {
     display: flex;
     flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
     padding-left: 10px;
     padding-right: 10px;
@@ -16,11 +17,26 @@
     width: 198px;
     border-radius: 50%;
     background-color: #EEEEEE;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 32px auto;
     overflow: hidden;
 }
 
 .photo {
     margin-left: 21px;
     width: 80%;
+    height: 110%;
+}
+
+.title {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 22.75px;
+    margin: 0 0 16px 0;
+}
+
+.description {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
 }

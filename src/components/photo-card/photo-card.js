@@ -7,8 +7,16 @@ function PhotoCard() {
             <div className={ styles.photoPlace }>
                 <img className={ styles.photo } alt='Фото автора' src={ Avatar } />
             </div>
-            <h3>Максим, 28 лет</h3>
-            <p>Фронтенд разработчик</p>
+            <h3 className={ styles.title }>Максим</h3>
+            <p className={ styles.description }>Фронтенд разработчик</p>
+            <ul>
+                {/* <li>
+                    <p>Тел</p>
+                </li>
+                <li>
+                    <p>Telegram</p>
+                </li> */}
+            </ul>
         </article>
     )
 };

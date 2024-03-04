@@ -1,8 +1,9 @@
 import styles from './info-section.module.css';
 
-function InfoSection() {
+function InfoSection({ children }) {
     return (
         <section className={ styles.infoSection }>
+            { children }
         </section>
     )
 };
