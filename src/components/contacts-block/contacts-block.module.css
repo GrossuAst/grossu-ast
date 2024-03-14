@@ -1,0 +1,45 @@
+.contacts {
+    font-family: 'Comfortaa', sans-serif;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid #E0E0E0;
+    color: black;
+}
+
+.title {
+    margin: 0;
+    display: inline;
+}
+
+.list {    
+    text-decoration: none;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    
+}
+
+.icon {
+    height: 22px;
+    width: 22px;
+}

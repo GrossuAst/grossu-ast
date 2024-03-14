@@ -22,4 +22,10 @@
         url('./comfortaa/Comfortaa-Light.woff2') format('woff2');
 }
 
-
+@font-face {
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./comfortaa/Comfortaa-Medium.woff') format('woff'),
+        url('./comfortaa/Comfortaa-Medium.woff2') format('woff2');
+}
