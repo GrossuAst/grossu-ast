@@ -8,4 +8,6 @@
     box-sizing: border-box;
     padding-left: 30px;
     padding-right: 30px;
+    background: url('../../images/page-background.jpg') no-repeat center;
+    background-size: cover;
 }

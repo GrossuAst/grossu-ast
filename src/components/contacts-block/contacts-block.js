@@ -20,6 +20,10 @@ function ContactsBlock() {
                     <img className={ styles.icon } src={LetterIcon} />
                     <p className={ styles.contact }>maxgrossu@yandex.ru</p>
                 </li>
+                {/* <li className={ styles.listItem }>
+                    <img className={ styles.icon } src={LetterIcon} />
+                    <p className={ styles.contact }>maxgrossu@yandex.ru</p>
+                </li> */}
             </ul>
         </div>
     )

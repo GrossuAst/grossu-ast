@@ -6,17 +6,12 @@ function Navigation() {
         <nav>
             <ul className={ styles.list }>
                 <li className={ styles.listItem }>
-                    <NavLink to='/' className={ styles.link }>
+                    <NavLink to='/' className={ ({isActive}) => isActive ? `${styles.link} ${styles.activeLink}` : `${styles.link}` } >
                         Главная
                     </NavLink>
                 </li>
-                {/* <li className={ styles.listItem }>
-                    <NavLink to='/contacts'  className={ styles.link }>
-                        Контакты
-                    </NavLink>
-                </li> */}
                 <li className={ styles.listItem }>
-                    <NavLink to='/portfolio'  className={ styles.link }>
+                    <NavLink to='/portfolio'  className={ ({isActive}) => isActive ? `${styles.link} ${styles.activeLink}` : `${styles.link}` } >
                         Портфолио
                     </NavLink>
                 </li>
