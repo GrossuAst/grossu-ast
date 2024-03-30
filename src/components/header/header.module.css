@@ -48,3 +48,19 @@
         max-width: 991px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .logo {
+        width: 32px;
+        height: 36px;
+    }
+}

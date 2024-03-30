@@ -19,3 +19,10 @@
         height: 100%;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .infoSection {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
