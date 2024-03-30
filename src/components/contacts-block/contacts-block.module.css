@@ -18,10 +18,10 @@
     font-weight: 500;
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 12px;
     padding: 0;
-    margin: 0;
+    margin: 10px 0 0 0;
 }
 
 .listItem {
@@ -36,15 +36,26 @@
 }
 
 .link {
+    display: flex;
     text-decoration: none;
     color: black;
-}
-
-.contact {
-    
+    align-items: center;
+    gap: 5px;
+    margin: 16px 0 16px 0;
 }
 
 .icon {
     height: 22px;
     width: 22px;
+}
+
+@media screen and (max-width: 750px) {
+    .list {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .listItem {
+        box-shadow: 0 0 5px 5px #dddddd;
+    }
 }

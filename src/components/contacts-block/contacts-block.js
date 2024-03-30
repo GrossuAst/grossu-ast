@@ -6,24 +6,22 @@ import LetterIcon from '../../images/letter_icon.svg';
 function ContactsBlock() {
     return (
         <div className={ styles.contacts }>
-            {/* <h2 className={ styles.title }>Контакты</h2> */}
+            <h2 className={ styles.title }>Связь со мной:</h2>
             <ul className={ styles.list }>
                 <li className={ styles.listItem }>
                     <img className={ styles.icon } src={PhoneIcon} />
                     <p className={ styles.contact }>+7(926)-701-28-40</p>
                 </li>
-                <li className={ styles.listItem }>
-                    <img className={ styles.icon } src={TelegramIcon} />
-                    <a className={ styles.link } href='https://t.me/Grossoooo'>@Grossoooo</a>
+                <li className={ styles.listItem }>                   
+                    <a className={ styles.link } href='https://t.me/Grossoooo'>
+                        <img className={ styles.icon } src={TelegramIcon} />
+                        t.me/Grossoooo
+                    </a>
                 </li>
                 <li className={ styles.listItem }>
                     <img className={ styles.icon } src={LetterIcon} />
                     <p className={ styles.contact }>maxgrossu@yandex.ru</p>
                 </li>
-                {/* <li className={ styles.listItem }>
-                    <img className={ styles.icon } src={LetterIcon} />
-                    <p className={ styles.contact }>maxgrossu@yandex.ru</p>
-                </li> */}
             </ul>
         </div>
     )

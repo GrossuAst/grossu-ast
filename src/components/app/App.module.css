@@ -7,3 +7,11 @@
   padding-right: 30px;
   padding-bottom: 30px;
 }
+
+@media screen and (max-width: 450px) {
+  .App {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+}

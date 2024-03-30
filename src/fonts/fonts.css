@@ -29,3 +29,11 @@
     src: url('./comfortaa/Comfortaa-Medium.woff') format('woff'),
         url('./comfortaa/Comfortaa-Medium.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./monsterrat/Montserrat-Regular.woff') format('woff'),
+        url('./monsterrat/Montserrat-Regular.woff2') format('woff2');
+}

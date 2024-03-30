@@ -3,6 +3,7 @@ import Main from '../../components/main/main';
 import InfoSection from '../../components/info-section/info-section';
 import PhotoCard from '../../components/photo-card/photo-card';
 import ContactsBlock from '../../components/contacts-block/contacts-block';
+import AboutMe from '../../components/about-me/about-me';
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <PhotoCard />
             <InfoSection>
                 <ContactsBlock />
+                <AboutMe />
             </InfoSection>
         </Main>
     )

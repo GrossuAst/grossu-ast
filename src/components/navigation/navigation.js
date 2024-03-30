@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navigation() {
     return (
-        <nav>
+        <nav className={styles.navigation}>
             <ul className={ styles.list }>
                 <li className={ styles.listItem }>
                     <NavLink to='/' className={ ({isActive}) => isActive ? `${styles.link} ${styles.activeLink}` : `${styles.link}` } >
