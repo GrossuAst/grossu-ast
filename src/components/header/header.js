@@ -11,7 +11,7 @@ function Header() {
                     <img src={ Logo } alt='Логотип сайта' className={ styles.logo } />
                     <p className={ styles.title }>.Frontend-developer</p>
                 </Link>
-                <Navigation />
+                {/* <Navigation /> */}
             </div>
         </header>
     )

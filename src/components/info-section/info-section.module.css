@@ -1,13 +1,12 @@
 .infoSection {
-    max-width: 808px;
+    /* max-width: 808px; */
     width: 100%;
-    /* height: 790px; */
     background-color: white;
     border: 2px solid rgb(221, 221, 221);
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     box-sizing: border-box;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     background: url('../../images/page-background.jpg') no-repeat center;
     background-size: cover;
 }

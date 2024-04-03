@@ -1,16 +1,17 @@
 .header {
-    display: flex;
-    justify-content: end;
-    max-width: 1138px;
+    /* display: flex; */
+    /* justify-content: end; */
+    max-width: 1100px;
     box-sizing: border-box;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 254px;
+    margin: 0 auto;
+    /* padding-left: 254px; */
 }
 
 .wrapper {    
-    width: 100%;
-    max-width: 808px;
+    /* width: 100%; */
+    /* max-width: 808px; */
     display: flex;
     justify-content: space-between;
 }
