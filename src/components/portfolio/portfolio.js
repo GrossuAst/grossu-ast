@@ -1,6 +1,7 @@
 import styles from './portfolio.module.css';
 import mestoMain from '../../images/mesto-main.png';
 import burgerMain from '../../images/burger-main.png';
+import diplomMain from '../../images/diplom-main.png';
 import linkIcon from '../../images/link-icon.png';
 
 function Portfolio() {
@@ -38,7 +39,7 @@ function Portfolio() {
                             <h2 className={styles.cardTitle}>"Mesto"</h2>
                             <p className={styles.textAbout}>Стек: JavaScript, React, NodeJs, express, MongoDb</p>
                             <div className={styles.links}>
-                                <a href='#' className={styles.link}>
+                                <a href='https://grossuast.github.io/mesto/' target={'_blank'} className={styles.link}>
                                     Перейти на сайт 
                                     <img src={linkIcon} className={styles.linkIcon}/>
                                 </a>
@@ -57,12 +58,12 @@ function Portfolio() {
                 </li>
                 <li className={styles.listItem}>
                     <article className={styles.project}>
-                        <img src={mestoMain} className={styles.preview}/>
+                        <img src={diplomMain} className={styles.preview}/>
                         <div className={styles.description}>
                             <h2 className={styles.cardTitle}>"Movies explorer"</h2>
                             <p className={styles.textAbout}>Стек: JavaScript, React, NodeJs, express, MongoDb</p>
                             <div className={styles.links}>
-                                <a href='#' className={styles.link}>
+                                <a href='https://grossuast.movie.nomoreparties.sbs/' target={'_blank'} className={styles.link}>
                                     Перейти на сайт 
                                     <img src={linkIcon} className={styles.linkIcon}/>
                                 </a>
@@ -70,6 +71,13 @@ function Portfolio() {
                                     Код проекта
                                     <img src={linkIcon} className={styles.linkIcon}/>
                                 </a>
+                                <p className={styles.textAbout}>
+                                    Дипломная работа на курсе веб разработки.<br/>
+                                    Состоит из статичной главной страницы, на которой собрана главная информация о проекте, а также представлен сервис
+                                    поиска фильмов с возможностью фильтрации.<br/>
+                                    На сайте доступна регистрация и авторизация, имеется личный кабинет.<br/>
+                                    Пользователь может нажать на кнопку лайка понравившегося фильма и сохранить его в свой профиль.
+                                </p>
                             </div>
                             <p className={styles.textAbout}>
                                 
